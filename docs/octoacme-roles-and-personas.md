@@ -253,6 +253,62 @@ Operations Coordinators ensure the reliability, performance, and scalability of 
 
 ---
 
+## Role-Specific Templates and Checklists
+
+### Business Analyst: Requirements Review Checklist
+- [ ] Business need and objectives clearly defined
+- [ ] Stakeholders identified and consulted
+- [ ] User stories include clear acceptance criteria
+- [ ] Edge cases and error scenarios documented
+- [ ] Dependencies and integration points identified
+- [ ] Requirements validated with Product Manager
+- [ ] Feasibility confirmed with development team
+
+### QA Lead: Test Readiness Checklist
+- [ ] Test strategy documented and reviewed
+- [ ] Test cases cover all acceptance criteria
+- [ ] Test data prepared and validated
+- [ ] Test environment configured and accessible
+- [ ] Automated tests integrated in CI/CD pipeline
+- [ ] Manual test scenarios documented
+- [ ] Quality metrics baseline established
+- [ ] Defect tracking and triage process in place
+
+### Release Manager: Pre-deployment Checklist
+- [ ] Release notes complete and reviewed
+- [ ] All PRs merged and quality gates passed
+- [ ] Deployment window scheduled and communicated
+- [ ] Rollback procedure documented and tested
+- [ ] Smoke test plan prepared
+- [ ] Stakeholder notifications sent
+- [ ] On-call team briefed
+- [ ] Post-deployment verification steps defined
+
+### UX Designer: Design Handoff Template
+- **Feature/Component Name:**
+- **User Problem Being Solved:**
+- **Key User Flows:**
+- **Design Files/Prototypes:**
+- **Accessibility Requirements:**
+- **Responsive Behavior:**
+- **Design System Components Used:**
+- **Open Questions/Decisions Needed:**
+- **Success Metrics:**
+
+### Operations Coordinator: Incident Response Template
+- **Incident ID:**
+- **Severity:** (Critical / High / Medium / Low)
+- **Start Time:**
+- **Detection Method:** (Alert / User Report / Monitoring)
+- **Impact:** (Users affected, services impacted)
+- **Root Cause Summary:**
+- **Immediate Actions Taken:**
+- **Resolution Time:**
+- **Follow-up Actions:**
+- **Post-Mortem Scheduled:** (Date/Time)
+
+---
+
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
